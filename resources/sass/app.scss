@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+body{
+         font-size: 62.5%;
+}
+
+p{
+         font-size: initial;
+}
+a{
+         font-size: initial;
+}
+.nav-link{
+         font-size: initial;
+}
+button{
+         font-size: initial;
+}
+
+.producten__form{
+         display: flex;
+         flex-direction: column;
+         margin: 5rem;
+}
+
+.producten__form-label{
+         font-size: initial;
+}
+
+.admin__producten{
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-end;
+         text-align: end;
+         padding-right: 1rem;
+         min-height: 2rem;
+}
+
+.admin__producten-titel{
+         color: white;
+         text-decoration: none;
+         width: fit-content;
+         padding: 0.5rem;
+         border-radius: 0.5rem;
+         background-color: hsl(281,68%,59%);
+         transition: all 0.5s;
+}
+
+.admin__producten-titel:hover{
+         background-color: hsl(281,68%,39%);
+}
+
+.single__product-img{
+         width: 200px;
+         height: 200px;
+}
